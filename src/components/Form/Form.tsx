@@ -23,11 +23,11 @@ const Form = () => {
     <div>
       <h1>Login</h1>
 
-      <label>Usuario</label>
-      <input type="text" placeholder='digite seu usuario' ref={inputUser} />
+      <label>Usuario</label> <br/>
+      <input type="text" placeholder='digite seu usuario' ref={inputUser} /> <br/><br/>
 
-      <label>Senha</label>
-      <input type="text" placeholder='digite sua senha' ref={inputSenha} />
+      <label>Senha</label><br/>
+      <input type="text" placeholder='digite sua senha' ref={inputSenha} /><br/><br/>
 
       <button onClick={entrar}>Entrar</button>
 
